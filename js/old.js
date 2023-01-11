@@ -136,7 +136,7 @@ if (num61 == 0){
     console.log('('+ num61 +')');
 };
 if (num61 > 0){
-    console.log("{"+ num61 +"}");
+    console.log('{'+ num61 +'}');
 }
 if (num62 < 0){
     console.log('['+ num62 +']');
@@ -224,3 +224,13 @@ if (num83 < 10 || num83 > 90) {
     console.log("Vidurkis jas atmetus = " + (Math.round((num81 + num82) / 2)));
 }
 
+let valandos = (Math.round(Math.random() * 23));
+let minutes = (Math.round(Math.random() * 59));
+let sekundes = (Math.round(Math.random() * 59));
+
+console.log(valandos + ':' + minutes + ':' + sekundes);
+
+let papildomai = (Math.round(Math.random() * 300));
+console.log(papildomai);
+
+let plius = (sekundes + papildomai);
